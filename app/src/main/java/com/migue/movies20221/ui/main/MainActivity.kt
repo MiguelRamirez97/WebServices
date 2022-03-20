@@ -1,4 +1,4 @@
-package com.migue.movies20221.main
+package com.migue.movies20221.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
