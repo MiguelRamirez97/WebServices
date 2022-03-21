@@ -35,6 +35,8 @@ class DetailFragment : Fragment() {
             releaseDateExampleView.text = movie.releaseDate
             voteAvergaTextView.text = movie.voteAverage.toString()
             Picasso.get().load("https://image.tmdb.org/t/p/w500"+movie.posterPath).into(posterImageView)
+            titleOriginalTextView.text = movie.originalTitle
+            languageTextView.text = movie.originalLanguage
             summaryTextView.text = movie.overview
         }
     }

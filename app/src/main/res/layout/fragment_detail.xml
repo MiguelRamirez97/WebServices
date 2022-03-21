@@ -6,6 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/summary_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/summary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie_language_text_view" />
+
     <ImageView
         android:id="@+id/poster_image_view"
         android:layout_width="0dp"
@@ -76,14 +88,49 @@
         app:layout_constraintTop_toBottomOf="@+id/movie_title_text_view" />
 
     <TextView
-        android:id="@+id/summary_text_view"
-        android:layout_width="0dp"
+        android:id="@+id/movie_title_original_text_view"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/summary"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/original_title_text_view"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/release_date_example_view" />
+        app:layout_constraintTop_toBottomOf="@+id/release_date_text_view" />
+
+    <TextView
+        android:id="@+id/title_original_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/title_original_movie"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/movie_title_original_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/vote_average_label_text_view" />
+
+    <TextView
+        android:id="@+id/movie_language_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/movie_language_text_view"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie_title_original_text_view" />
+
+    <TextView
+        android:id="@+id/language_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/language_text_view"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/movie_language_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/title_original_text_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>

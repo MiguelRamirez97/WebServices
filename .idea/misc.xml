@@ -5,8 +5,9 @@
       <map>
         <entry key="..\:/Users/Migue/AndroidStudioProjects/Movies20221/app/src/main/res/layout/activity_main.xml" value="0.38333333333333336" />
         <entry key="..\:/Users/Migue/AndroidStudioProjects/Movies20221/app/src/main/res/layout/card_view_item_movie.xml" value="0.443024494142705" />
-        <entry key="..\:/Users/Migue/AndroidStudioProjects/Movies20221/app/src/main/res/layout/fragment_detail.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Migue/AndroidStudioProjects/Movies20221/app/src/main/res/layout/fragment_detail.xml" value="0.67" />
         <entry key="..\:/Users/Migue/AndroidStudioProjects/Movies20221/app/src/main/res/layout/fragment_list.xml" value="0.33" />
+        <entry key="..\:/Users/Migue/AndroidStudioProjects/Movies20221/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2328125" />
       </map>
     </option>
   </component>
